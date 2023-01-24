@@ -1,0 +1,70 @@
+#Google {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 500px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+input:-moz-placeholder {
+  color: #dfe1e5;
+}
+
+nav{
+    float: right;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 271px;
+    width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+  }
+  
+  
+  .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
